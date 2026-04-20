@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="68px" height="68px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip215">
+      <path d="M 105 49  C 91.68 49  81 38.32  81 25  L 81 25  C 81 11.68  91.68 1  105 1  L 105 1  C 118.32 1  129 11.68  129 25  L 129 25  C 129 38.32  118.32 49  105 49  " fill-rule="evenodd" />
+    </mask>
+    <filter x="71px" y="-9px" width="68px" height="68px" filterUnits="userSpaceOnUse" id="filter216">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="5" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.894117647058823  0 0 0 0 0.894117647058823  0 0 0 0 0.894117647058823  0 0 0 1 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget217">
+      <image preserveAspectRatio="none" style="overflow:visible" width="48" height="48" xlink:href="data:image/png;base64,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" x="81px" y="1px" mask="url(#clip215)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -71 9 )">
+    <use xlink:href="#widget217" filter="url(#filter216)" />
+    <use xlink:href="#widget217" />
+  </g>
+</svg>
